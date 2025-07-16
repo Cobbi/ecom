@@ -1,0 +1,88 @@
+import { Product } from "./product";
+
+export const productsData: Product[] = [
+  {
+    id: '1',
+    name: 'Macbook Pro',
+    description: 'Macbook Pro with M1 chip, 16GB RAM, and 512GB SSD.',
+    price: 2499.99,
+    imageUrl: '/images/macbook_pro.jpg', 
+  },
+  {
+    id: '2',
+    name: 'Smartwatch',
+    description: 'Track your fitness and stay connected with this smartwatch.',
+    price: 149.99,
+    imageUrl: '/images/smartwatch.jpg',
+  },
+  {
+    id: '3',
+    name: 'Gaming Mouse',
+    description: 'Ergonomic gaming mouse with customizable buttons.',
+    price: 49.99,
+    imageUrl: '/images/gaming_mouse.jpg',
+  },
+  {
+    id: '4',
+    name: 'Apple Chair',
+    description: 'Portable Apple Chair with deep bass and long battery life.',
+    price: 39.99,
+    imageUrl: '/images/apple_chair.jpg',
+  },
+  {
+    id: '5',
+    name: 'Laptop Stand',
+    description: 'Aluminum stand to elevate your laptop for better posture.',
+    price: 29.99,
+    imageUrl: '/images/laptop_stand.jpg',
+  },
+  {
+    id: '6',
+    name: 'USB-C Hub',
+    description: 'Multi-port USB-C hub with HDMI, USB, and SD card support.',
+    price: 34.99,
+    imageUrl: '/images/usb_hub.jpg',
+  },
+  {
+    id: '7',
+    name: 'Mechanical Keyboard',
+    description: 'Backlit mechanical keyboard for productivity and gaming.',
+    price: 89.99,
+    imageUrl: '/images/keyboard.jpg',
+  },
+//   {
+//     id: '8',
+//     name: 'Fitness Tracker',
+//     description: 'Wearable fitness tracker with heart rate monitoring.',
+//     price: 59.99,
+//     imageUrl: 'https://via.placeholder.com/300x200?text=Fitness+Tracker',
+//   },
+//   {
+//     id: '9',
+//     name: '4K Monitor',
+//     description: '27-inch 4K UHD monitor with vivid colors and sharp resolution.',
+//     price: 299.99,
+//     imageUrl: 'https://via.placeholder.com/300x200?text=4K+Monitor',
+//   },
+//   {
+//     id: '10',
+//     name: 'Wireless Charger',
+//     description: 'Fast wireless charger compatible with all Qi-enabled devices.',
+//     price: 24.99,
+//     imageUrl: 'https://via.placeholder.com/300x200?text=Wireless+Charger',
+//   },
+//   {
+//     id: '11',
+//     name: 'Noise Cancelling Earbuds',
+//     description: 'Compact earbuds with premium noise cancellation features.',
+//     price: 79.99,
+//     imageUrl: 'https://via.placeholder.com/300x200?text=Earbuds',
+//   },
+//   {
+//     id: '12',
+//     name: 'Action Camera',
+//     description: 'Waterproof action camera for outdoor adventures.',
+//     price: 199.99,
+//     imageUrl: 'https://via.placeholder.com/300x200?text=Action+Camera',
+//   },
+];
