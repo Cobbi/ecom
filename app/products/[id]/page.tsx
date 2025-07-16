@@ -1,11 +1,12 @@
-import ProductDetails from "@/app/components/ProductDetails";
 import { productsData } from "@/app/data/productsData";
 import NotFoundPage from "@/app/not-found/page";
 import Image from "next/image";
 
-export default function ProductDetailsPage({params}: { params: { id: string }}) {
-  const product = productsData.find((product) => product.id === params.id);
-  // console.log("Product Details Page", product);
+export default async function ProductDetailsPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params; 
+
+  const product = productsData.find((product) => product.id === id);
+
   if (!product) {
     return <NotFoundPage />;
   }
